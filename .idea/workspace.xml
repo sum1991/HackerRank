@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c245182d-d273-42f7-8b41-6d2f9ffe2ed6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +31,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FradualentActivity">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.BubbleSort" />
-      <module name="workspace1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Comporator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.Comporator" />
+  <component name="RunManager" selected="Application.TreeTraversal">
+    <configuration name="BubbleSortTrue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.BubbleSortTrue" />
       <module name="workspace1" />
       <extension name="coverage">
         <pattern>
@@ -72,18 +58,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="RecursiveBuubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.RecursiveBuubleSort" />
       <module name="workspace1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarksAndToys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.MarksAndToys" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.SelectionSort" />
+      <module name="workspace1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.TreeTraversal" />
       <module name="workspace1" />
       <extension name="coverage">
         <pattern>
@@ -96,19 +98,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.MarksAndToys" />
-      <item itemvalue="Application.Comporator" />
       <item itemvalue="Application.FradualentActivity" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.BubbleSortTrue" />
+      <item itemvalue="Application.RecursiveBuubleSort" />
+      <item itemvalue="Application.TreeTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeTraversal" />
+        <item itemvalue="Application.RecursiveBuubleSort" />
+        <item itemvalue="Application.BubbleSortTrue" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.FradualentActivity" />
-        <item itemvalue="Application.Comporator" />
-        <item itemvalue="Application.MarksAndToys" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,53 +128,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="529" key="GridCell.Tab.0.bottom" timestamp="1586156789556">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1586268407063">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586134305662" />
-    <state width="1878" height="529" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586156789556" />
+    <state width="1878" height="529" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586231563416" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586268407063" />
     <state width="1878" height="529" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497431" />
-    <state width="1878" height="529" key="GridCell.Tab.0.center" timestamp="1586156789553">
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1586268407058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586134305661" />
-    <state width="1878" height="529" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586156789553" />
+    <state width="1878" height="529" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586231563414" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586268407058" />
     <state width="1878" height="529" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497428" />
-    <state width="1878" height="529" key="GridCell.Tab.0.left" timestamp="1586156789533">
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1586268407057">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586134305660" />
-    <state width="1878" height="529" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586156789533" />
+    <state width="1878" height="529" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586231563414" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586268407057" />
     <state width="1878" height="529" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497426" />
-    <state width="1878" height="529" key="GridCell.Tab.0.right" timestamp="1586156789555">
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1586268407061">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586134305661" />
-    <state width="1878" height="529" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586156789555" />
+    <state width="1878" height="529" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586231563415" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586268407061" />
     <state width="1878" height="529" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497429" />
-    <state width="1878" height="529" key="GridCell.Tab.1.bottom" timestamp="1586156815470">
+    <state width="1878" height="435" key="GridCell.Tab.1.bottom" timestamp="1586264942000">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586134305663" />
-    <state width="1878" height="529" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586156815470" />
+    <state width="1878" height="529" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586231563418" />
+    <state width="1878" height="435" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586264942000" />
     <state width="1878" height="529" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496670" />
-    <state width="1878" height="529" key="GridCell.Tab.1.center" timestamp="1586156815469">
+    <state width="1878" height="435" key="GridCell.Tab.1.center" timestamp="1586264941999">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586134305663" />
-    <state width="1878" height="529" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586156815469" />
+    <state width="1878" height="529" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586231563417" />
+    <state width="1878" height="435" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586264941999" />
     <state width="1878" height="529" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496667" />
-    <state width="1878" height="529" key="GridCell.Tab.1.left" timestamp="1586156815468">
+    <state width="1878" height="435" key="GridCell.Tab.1.left" timestamp="1586264941998">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586134305662" />
-    <state width="1878" height="529" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586156815468" />
+    <state width="1878" height="529" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586231563416" />
+    <state width="1878" height="435" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586264941998" />
     <state width="1878" height="529" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496666" />
-    <state width="1878" height="529" key="GridCell.Tab.1.right" timestamp="1586156815470">
+    <state width="1878" height="435" key="GridCell.Tab.1.right" timestamp="1586264941999">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="375" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586134305663" />
-    <state width="1878" height="529" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586156815470" />
+    <state width="1878" height="529" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586231563417" />
+    <state width="1878" height="435" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586264941999" />
     <state width="1878" height="529" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496668" />
   </component>
   <component name="XDebuggerManager">
