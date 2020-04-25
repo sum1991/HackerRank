@@ -2,7 +2,7 @@ package HackerRank;
 
 public class LinkedListClass {
 
-    Node head;  // head of list
+    Node head,head1;  // head of list
 
     /* Node Class */
     static class Node
@@ -50,8 +50,8 @@ public class LinkedListClass {
             temp = temp.next;
         }
     }
-    private int ListCount(){
-        LinkedListClass.Node temp = head;
+    private int ListCount(Node val){
+        LinkedListClass.Node temp = val;
         int count =0;
         while (temp!= null){
             count++;
@@ -108,6 +108,44 @@ public class LinkedListClass {
         }
         return foundNode;
     }
+
+    public Node MergeCheck(Node headOne,Node headTwo){
+
+        int countone = this.ListCount(headOne);
+        int counttwo = this.ListCount(headTwo);
+        int diffVal = Math.abs(countone-counttwo);
+        int trans =0;
+        Node temp1 = headOne;
+        Node temp2 = headTwo;
+        if(countone>counttwo){
+            while (temp1!=null){
+                if(trans==diffVal){
+                    break;
+                }
+                temp1 = temp1.next;
+                trans++;
+            }
+        }else {
+            while (temp2!=null){
+                if(trans==diffVal){
+                    break;
+                }
+                temp2 = temp2.next;
+                trans++;
+            }
+        }
+        while (temp1!=null && temp2!=null){
+            if(temp1.data==temp2.data){
+                System.out.println("found");
+                break;
+            }
+            temp1 = temp1.next;
+            temp2 =temp2.next;
+        }
+        return temp1;
+    }
+
+
     public void foundNode(Node foundNode){
         LinkedListClass.Node temp = foundNode;
         int res = 1;
@@ -120,19 +158,35 @@ public class LinkedListClass {
 
     public static void main(String[] args) {
 
-        LinkedListClass ll = new LinkedListClass();
+        LinkedListClass list = new LinkedListClass();
+
+        // creating first linked list
+        list.head1 = new Node(3);
+        list.head1.next = new Node(6);
+        list.head1.next.next = new Node(9);
+        list.head1.next.next.next = new Node(15);
+        list.head1.next.next.next.next = new Node(30);
+
+        // creating second linked list
+        list.head = new Node(10);
+        list.head.next = new Node(15);
+        list.head.next.next = new Node(30);
+        list.MergeCheck(list.head1,list.head);
+        /*LinkedListClass ll = new LinkedListClass();
         ll .head = new Node(2);
         LinkedListClass.Node second = new Node(3);
         ll.head.next = second;
         LinkedListClass.Node third = new Node(6);
         second.next = third;
 
-        LinkedListClass.Node fouth = new Node(67);
-        third.next = fouth;
-        fouth.next = second;
+        LinkedListClass.Node fouth = new Node(67);*/
+
+
+        //third.next = fouth;
+        //fouth.next = second;
         //ll.printLinkedListValues(ll.head);
-        ll.insertionAtfront(8);
-        ll.foundNode(ll.LoopCheck());
+        //ll.insertionAtfront(8);
+        //ll.foundNode(ll.LoopCheck());
         // ll.printLinkedListValues(ll.head);
         // ll.insertAfterNode(ll.head.next,9);
         //ll.printLinkedListValues(ll.head);

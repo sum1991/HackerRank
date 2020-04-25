@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c245182d-d273-42f7-8b41-6d2f9ffe2ed6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace1/HackerRank/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace1/HackerRank/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace1/HackerRank/TreeTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace1/HackerRank/TreeTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/workspace1/HackerRank/LinkedListClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/workspace1/HackerRank/LinkedListClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HackerRank/LinkedListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HackerRank/LinkedListClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +32,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.LinkedListClass">
+  <component name="RunManager" selected="Application.DoublyLinkedList">
     <configuration name="ContinueStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HackerRank.ContinueStr" />
+      <module name="workspace1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HackerRank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.DoublyLinkedList" />
       <module name="workspace1" />
       <extension name="coverage">
         <pattern>
@@ -60,21 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveBuubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.RecursiveBuubleSort" />
-      <module name="workspace1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HackerRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HackerRank.TreeTraversal" />
+    <configuration name="SinglyListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HackerRank.SinglyListNode" />
       <module name="workspace1" />
       <extension name="coverage">
         <pattern>
@@ -100,19 +101,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecursiveBuubleSort" />
-      <item itemvalue="Application.TreeTraversal" />
       <item itemvalue="Application.ContinueStr" />
-      <item itemvalue="Application.sherlock" />
       <item itemvalue="Application.LinkedListClass" />
+      <item itemvalue="Application.SinglyListNode" />
+      <item itemvalue="Application.sherlock" />
+      <item itemvalue="Application.DoublyLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.LinkedListClass" />
+        <item itemvalue="Application.SinglyListNode" />
         <item itemvalue="Application.sherlock" />
         <item itemvalue="Application.ContinueStr" />
-        <item itemvalue="Application.TreeTraversal" />
-        <item itemvalue="Application.RecursiveBuubleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -130,58 +131,58 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="431" key="GridCell.Tab.0.bottom" timestamp="1586874854651">
+    <state width="1878" height="284" key="GridCell.Tab.0.bottom" timestamp="1587777413964">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="304" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586819135464" />
-    <state width="1878" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586874854651" />
+    <state width="1238" height="431" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587693331147" />
+    <state width="1878" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587777413964" />
     <state width="1878" height="529" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497431" />
-    <state width="1878" height="431" key="GridCell.Tab.0.center" timestamp="1586874854650">
+    <state width="1878" height="284" key="GridCell.Tab.0.center" timestamp="1587777413963">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="304" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586819135463" />
-    <state width="1878" height="431" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586874854650" />
+    <state width="1238" height="431" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587693331144" />
+    <state width="1878" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587777413963" />
     <state width="1878" height="529" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497428" />
-    <state width="1878" height="431" key="GridCell.Tab.0.left" timestamp="1586874854649">
+    <state width="1878" height="284" key="GridCell.Tab.0.left" timestamp="1587777413961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="304" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586819135462" />
-    <state width="1878" height="431" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586874854649" />
+    <state width="1238" height="431" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587693331142" />
+    <state width="1878" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587777413961" />
     <state width="1878" height="529" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497426" />
-    <state width="1878" height="431" key="GridCell.Tab.0.right" timestamp="1586874854651">
+    <state width="1878" height="284" key="GridCell.Tab.0.right" timestamp="1587777413963">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="304" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586819135463" />
-    <state width="1878" height="431" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586874854650" />
+    <state width="1238" height="431" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587693331146" />
+    <state width="1878" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587777413963" />
     <state width="1878" height="529" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586151497429" />
-    <state width="1878" height="612" key="GridCell.Tab.1.bottom" timestamp="1586870537457">
+    <state width="1878" height="284" key="GridCell.Tab.1.bottom" timestamp="1587777407310">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="435" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586402499965" />
-    <state width="1878" height="612" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586870537457" />
+    <state width="1878" height="284" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587693328882" />
+    <state width="1878" height="284" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587777407310" />
     <state width="1878" height="529" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496670" />
-    <state width="1878" height="612" key="GridCell.Tab.1.center" timestamp="1586870537455">
+    <state width="1878" height="284" key="GridCell.Tab.1.center" timestamp="1587777407308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="435" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586402499964" />
-    <state width="1878" height="612" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586870537455" />
+    <state width="1878" height="284" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1587693328881" />
+    <state width="1878" height="284" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587777407308" />
     <state width="1878" height="529" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496667" />
-    <state width="1878" height="612" key="GridCell.Tab.1.left" timestamp="1586870537454">
+    <state width="1878" height="284" key="GridCell.Tab.1.left" timestamp="1587777407306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="435" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586402499963" />
-    <state width="1878" height="612" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586870537454" />
+    <state width="1878" height="284" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1587693328880" />
+    <state width="1878" height="284" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587777407306" />
     <state width="1878" height="529" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496666" />
-    <state width="1878" height="612" key="GridCell.Tab.1.right" timestamp="1586870537456">
+    <state width="1878" height="284" key="GridCell.Tab.1.right" timestamp="1587777407309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1238" height="435" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586402499965" />
-    <state width="1878" height="612" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586870537456" />
+    <state width="1878" height="284" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1587693328881" />
+    <state width="1878" height="284" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587777407309" />
     <state width="1878" height="529" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1586151496668" />
-    <state x="625" y="255" key="run.anything.popup" timestamp="1586785224386">
+    <state x="625" y="237" key="run.anything.popup" timestamp="1587650200177">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="625" y="255" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1586785224386" />
+    <state x="625" y="237" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1587650200177" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,6 +221,66 @@
           <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
           <line>71</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/SinglyListNode.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/SinglyListNode.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/LinkedListClass.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/DoublyLinkedList.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/DoublyLinkedList.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/DoublyLinkedList.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/DoublyLinkedList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HackerRank/DoublyLinkedList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
